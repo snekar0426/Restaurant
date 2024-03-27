@@ -1,0 +1,66 @@
+/* Register.scss */
+
+.register-container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 395px;
+  margin: auto;
+  padding: 39px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 103px;
+  color: white;
+  background-color: black;
+
+  .register-header {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 120px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 23px;
+    margin-top: 14px;
+
+    &:hover {
+      background-color: #348ff0;
+    }
+  }
+
+  .social-icons {
+    column-gap: 67px;
+    display: flex;
+    font-size: 22px;
+    margin-left: 62px;
+  }
+
+  .or {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .user {
+    color: white;
+    margin-top: 25px;
+    margin-left: 90px;
+  }
+
+  a.loguser {
+    color: white;
+  }
+}

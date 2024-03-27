@@ -1,0 +1,81 @@
+/* OTPPage.scss */
+
+.otp-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 150px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #0c0c0c;
+
+  // Add more specific styles for .otp-container if needed
+}
+
+/* OTPPage.scss */
+
+.otp-input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.otp-digit-input {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.otp-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.otp-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.otp-submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 120px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 41px;
+  margin-right: 46px;
+  font-size: 15px;
+
+  &:hover {
+    background-color: #348ff0;
+  }
+}
+
+.otp {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+  font-size: 15px;
+  padding-left: 13px;
+}
+
+.resendotp {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.backlog1 {
+  text-decoration: none;
+  color: white;
+  margin-left: 37.5%;
+}
+
